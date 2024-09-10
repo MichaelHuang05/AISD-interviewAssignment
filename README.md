@@ -8,9 +8,18 @@ The outputs are:
 2. The ROC curve of the model over `train.csv` saved with `.png` file.
 
 # Run the script
-There are two model: `(1)xgboost` `(2)DNN` in this assignment. To get the output, please run shell script with command 
-```python main.py --models xgboost,DNN``` 
-to get outcomes for both models. The `--models` parameter decide which model to be run. With default model set to `xgboost`, ```python main.py``` will only get outcome for xgboost model.
+There are two model: `(1)xgboost` `(2)DNN` in this assignment. To get the output, please run shell script with command <br>
+```
+python main.py --models xgboost,DNN
+``` 
+<br>
+to get outcomes for both models. The `--models` parameter decide which model to be run. With default model set to `xgboost`, 
+<br>
+```
+python main.py
+```
+<br> 
+will only get outcome for xgboost model.
 
 # Modification 
 #### 1. To include more models
